@@ -24,3 +24,7 @@ void PrintArray(string[] array)
     }
     System.Console.WriteLine();
 }
+
+string[] array = new string[5] {"Hello","Russia","123",":D", "Denmark"};
+
+string[] Newarray = new string[array.Length];
