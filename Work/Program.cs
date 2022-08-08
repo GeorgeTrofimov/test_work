@@ -32,3 +32,9 @@ string[] Newarray = new string[array.Length];
 System.Console.WriteLine($"Начальный массив: ");
 
 PrintArray(array);
+
+Sortirovka(array, Newarray);
+
+System.Console.WriteLine($"Конечный массив: ");
+
+PrintArray(Newarray);
