@@ -28,3 +28,7 @@ void PrintArray(string[] array)
 string[] array = new string[5] {"Hello","Russia","123",":D", "Denmark"};
 
 string[] Newarray = new string[array.Length];
+
+System.Console.WriteLine($"Начальный массив: ");
+
+PrintArray(array);
